@@ -1,0 +1,92 @@
+MINECRAFT SPONGE SCHEMATIC REPORT
+Format: Sponge Schematic Format
+Version: 2 (Minecraft 1.20+)
+Dimensions: Width: 11, Height: 15, Length: 11
+
+BLOCK PALETTE:
+Index 0: minecraft:air
+Index 1: minecraft:cherry_log
+Index 2: minecraft:cherry_planks
+Index 3: minecraft:cherry_leaves
+Index 4: minecraft:cherry_stairs
+Index 5: minecraft:cherry_door
+Index 6: minecraft:glass_pane
+
+BLOCK COUNTS:
+minecraft:air : 1412
+minecraft:cherry_leaves : 240
+minecraft:cherry_planks : 85
+minecraft:cherry_log : 60
+minecraft:cherry_stairs : 12
+minecraft:cherry_door : 2
+minecraft:glass_pane : 4
+Total Blocks: 1815
+
+SPATIAL LAYOUT (SELECTED NON-AIR COORDINATES):
+# Central Trunk (Y=0 to Y=10)
+5,0,5 = minecraft:cherry_log
+5,1,5 = minecraft:cherry_log
+5,2,5 = minecraft:cherry_log
+5,3,5 = minecraft:cherry_log
+5,4,5 = minecraft:cherry_log
+5,5,5 = minecraft:cherry_log
+5,6,5 = minecraft:cherry_log
+5,7,5 = minecraft:cherry_log
+5,8,5 = minecraft:cherry_log
+5,9,5 = minecraft:cherry_log
+5,10,5 = minecraft:cherry_log
+
+# Elevated Platform Floor Deck (Y=5)
+4,5,4 = minecraft:cherry_planks
+4,5,5 = minecraft:cherry_planks
+4,5,6 = minecraft:cherry_planks
+5,5,4 = minecraft:cherry_planks
+5,5,6 = minecraft:cherry_planks
+6,5,4 = minecraft:cherry_planks
+6,5,5 = minecraft:cherry_planks
+6,5,6 = minecraft:cherry_planks
+3,5,3 = minecraft:cherry_planks
+3,5,4 = minecraft:cherry_planks
+3,5,5 = minecraft:cherry_planks
+3,5,6 = minecraft:cherry_planks
+3,5,7 = minecraft:cherry_planks
+7,5,3 = minecraft:cherry_planks
+7,5,4 = minecraft:cherry_planks
+7,5,5 = minecraft:cherry_planks
+7,5,6 = minecraft:cherry_planks
+7,5,7 = minecraft:cherry_planks
+
+# Enclosed Cabin Walls & Openings (Y=6 to Y=8)
+3,6,3 = minecraft:cherry_planks
+3,6,4 = minecraft:glass_pane
+3,6,5 = minecraft:cherry_planks
+3,6,6 = minecraft:glass_pane
+3,6,7 = minecraft:cherry_planks
+7,6,3 = minecraft:cherry_planks
+7,6,4 = minecraft:glass_pane
+7,6,5 = minecraft:cherry_planks
+7,6,6 = minecraft:glass_pane
+7,6,7 = minecraft:cherry_planks
+5,6,3 = minecraft:cherry_door
+5,7,3 = minecraft:cherry_door
+
+# Blossom Canopy (Y=9 to Y=14)
+# Thick layering of cherry leaves surrounding the upper branches
+4,9,4 = minecraft:cherry_leaves
+4,9,5 = minecraft:cherry_leaves
+4,9,6 = minecraft:cherry_leaves
+5,9,4 = minecraft:cherry_leaves
+5,9,6 = minecraft:cherry_leaves
+6,9,4 = minecraft:cherry_leaves
+6,9,5 = minecraft:cherry_leaves
+6,9,6 = minecraft:cherry_leaves
+# Extended canopy layers omitted for length but fully parsed.
+
+SPECIAL DATA:
+No custom block entities, signs, or container NBT inventories detected in this file fragment.
+
+STRUCTURE OVERVIEW:
+- Central Trunk: A solid vertical line of cherry log blocks acts as the main base.
+- Elevated Platform: A flat platform at layer Y=5 extends outward around the trunk using cherry planks.
+- Cabin Walls: Planks outline a small room with glass panes on the sides and a front entry door.
+- Roof Canopy: A dense cluster of pink cherry leaves forms the protective top layer of the treehouse.
